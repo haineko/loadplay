@@ -60,21 +60,6 @@ ul {
   text-shadow: 0 -1px 0 #9e1b1b;
 }
 
-/*
-.btn::after {
-  content: "";
-  position: absolute;
-  right: -6px;
-  top: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 30px 0 30px 6px;
-  border-color: transparent transparent transparent #e23a3a;
-  box-shadow: ;
-}
-*/
-
 .main-header {
   padding: 14px 0 20px;
 }
@@ -314,6 +299,8 @@ video {
   display: none;
   width: 996px;
   height: 350px;
+  text-indent: -150%;
+  overflow: hidden;
 }
 
 #tab1:checked ~ .games__controls .games__control label[for="tab1"],
