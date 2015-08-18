@@ -148,7 +148,9 @@ video {
   left: 50%;
   z-index: 10;
   text-align: center;
-  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
 }
 
 .intro h1 {
@@ -228,7 +230,9 @@ video {
   border-radius: 3px;
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4),
               inset 0 0 15px 0 rgba(0, 0, 0, 0.15);
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .games__link--gta::before {
@@ -564,7 +568,9 @@ video {
   top: 83px;
   left: 50%;
   background-size: cover;
-  transform: translateX(-50%) translateY(-100%);
+  -webkit-transform: translateX(-50%) translateY(-100%);
+      -ms-transform: translateX(-50%) translateY(-100%);
+          transform: translateX(-50%) translateY(-100%);
   opacity: 0.5;
 }
 
@@ -707,7 +713,9 @@ video {
   height: 3px;
   background-color: rgba(237, 80, 80, 0.75);
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.7);
-  transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+          transform: rotate(-15deg);
 }
 
 .buy__text {
