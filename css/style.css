@@ -139,7 +139,7 @@ video {
   z-index: 7;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7) url("../img/bg-line2.png") repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0.7) url("../img/bg-line.png") repeat scroll 0 0;
 }
 
 .intro {
