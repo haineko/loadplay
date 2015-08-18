@@ -227,6 +227,7 @@ video {
   line-height: 18px;
   color: #e23a3a;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .games__link span {
@@ -361,23 +362,23 @@ video {
 
 .games--win #tab1:checked ~ .games__tabs .wrapper .games__tab:nth-child(1) { 
   display: block;
-  background: url(../img/win-gta.png) no-repeat 50% 100%;
+  background: url(../img/win-gta.png) no-repeat 67% 45%;
 }
 .games--win #tab2:checked ~ .games__tabs .wrapper .games__tab:nth-child(2) { 
   display: block;
-  background: url(../img/win-w3.png) no-repeat 50% 100%;
+  background: url(../img/win-w3.png) no-repeat 67% 45%;
 }
 .games--win #tab3:checked ~ .games__tabs .wrapper .games__tab:nth-child(3) { 
   display: block;
-  background: url(../img/win-elite.png) no-repeat 50% 100%;
+  background: url(../img/win-elite.png) no-repeat 67% 45%;
 }
 .games--win #tab4:checked ~ .games__tabs .wrapper .games__tab:nth-child(4) { 
   display: block;
-  background: url(../img/win-wow.png) no-repeat 50% 100%;
+  background: url(../img/win-wow.png) no-repeat 67% 45%;
 }
 .games--win #tab5:checked ~ .games__tabs .wrapper .games__tab:nth-child(5) { 
   display: block;
-  background: url(../img/win-bf4.png) no-repeat 50% 100%;
+  background: url(../img/win-bf4.png) no-repeat 67% 45%;
 }
 
 .play {
