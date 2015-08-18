@@ -13,6 +13,7 @@ body {
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
+  min-width: 1100px;
   color: #202c33;
   background-color: #fff;
 }
@@ -131,6 +132,7 @@ ul {
 .video {
   position: relative;
   z-index: 2;
+  height: 100vh;
 }
 
 video {
@@ -138,7 +140,7 @@ video {
   min-width: 100%;
   min-height: 100%;
   width: auto;
-  height: auto;
+  height: 100vh;
   z-index: 5;
   background-color: #000;
   background-size: cover;
@@ -338,44 +340,44 @@ video {
 
 .games--mac #tab1:checked ~ .games__tabs .wrapper .games__tab:nth-child(1) { 
   display: block;
-  background: url(../img/mac--gta.png) no-repeat 50% 100%;
+  background: url(../img/mac-gta.png) no-repeat 74% 41%;
 }
 .games--mac #tab2:checked ~ .games__tabs .wrapper .games__tab:nth-child(2) { 
   display: block;
-  background: url(../img/mac--w3.png) no-repeat 50% 100%;
+  background: url(../img/mac-w3.png) no-repeat 74% 41%;
 }
 .games--mac #tab3:checked ~ .games__tabs .wrapper .games__tab:nth-child(3) { 
   display: block;
-  background: url(../img/mac--elite.png) no-repeat 50% 100%;
+  background: url(../img/mac-elite.png) no-repeat 74% 41%;
 }
 .games--mac #tab4:checked ~ .games__tabs .wrapper .games__tab:nth-child(4) { 
   display: block;
-  background: url(../img/mac--elite.png) no-repeat 50% 100%;
+  background: url(../img/mac-wow.png) no-repeat 74% 41%;
 }
 .games--mac #tab5:checked ~ .games__tabs .wrapper .games__tab:nth-child(5) { 
   display: block;
-  background: url(../img/mac--bf4.png) no-repeat 50% 100%;
+  background: url(../img/mac-bf4.png) no-repeat 74% 41%;
 }
 
 .games--win #tab1:checked ~ .games__tabs .wrapper .games__tab:nth-child(1) { 
   display: block;
-  background: url(../img/win--gta.png) no-repeat 50% 100%;
+  background: url(../img/win-gta.png) no-repeat 50% 100%;
 }
 .games--win #tab2:checked ~ .games__tabs .wrapper .games__tab:nth-child(2) { 
   display: block;
-  background: url(../img/win--w3.png) no-repeat 50% 100%;
+  background: url(../img/win-w3.png) no-repeat 50% 100%;
 }
 .games--win #tab3:checked ~ .games__tabs .wrapper .games__tab:nth-child(3) { 
   display: block;
-  background: url(../img/win--elite.png) no-repeat 50% 100%;
+  background: url(../img/win-elite.png) no-repeat 50% 100%;
 }
 .games--win #tab4:checked ~ .games__tabs .wrapper .games__tab:nth-child(4) { 
   display: block;
-  background: url(../img/win--elite.png) no-repeat 50% 100%;
+  background: url(../img/win-wow.png) no-repeat 50% 100%;
 }
 .games--win #tab5:checked ~ .games__tabs .wrapper .games__tab:nth-child(5) { 
   display: block;
-  background: url(../img/win--bf4.png) no-repeat 50% 100%;
+  background: url(../img/win-bf4.png) no-repeat 50% 100%;
 }
 
 .play {
