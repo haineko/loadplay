@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>LoadPlay</title>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,500,300&subset=cyrillic,latin">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="wrapper">
+      <a href="/" class="main-header__logo">Loadplay</a>
+      <nav class="main-header__menu">
+        <a href="#" class="main-header__link link">Как это работает</a>
+        <a href="#" class="main-header__btn btn">Сделать предзаказ</a>
+      </nav>
+    </div>
+  </header>
+  <article class="video">
+    <video autoplay poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" loop>
+      <source src="//demosthenes.info/assets/videos/polina.webm" type="video/webm">
+    <source src="//demosthenes.info/assets/videos/polina.mp4" type="video/mp4">
+    </video>
+    <div class="intro wrapper">
+      <h1>Играйте в любую игру на любом устройстве</h1>
+      <p class="games__text">Забудьте о производительности своего компьютера.
+    Играйте в облаке.</p>
+      <a href="" class="intro__btn btn">Сделать предзаказ</a>
+    </div>
+  </article>
+  <article class="games  games--mac">
+    <div class="wrapper">
+      <h2>Играйте в любые игры</h2>
+      <p>На любом компьютере, планшете и смартфоне</p>  
+    </div>
+    <input id="tab1" type="radio" name="tab" checked>
+    <input id="tab2" type="radio" name="tab">
+    <input id="tab3" type="radio" name="tab">
+    <input id="tab4" type="radio" name="tab">
+    <input id="tab5" type="radio" name="tab">
+    <div class="games__controls">
+      <div class="wrapper">
+        <div class="games__control">
+          <label for="tab1" class="games__link games__link--gta link"><span>GTA V</span></label>
+          <label for="tab2" class="games__link games__link--w3 link"><span>Ведьмак 3</span></label>
+          <label for="tab3" class="games__link games__link--elite link"><span>Elite: Dangerous</span></label>
+          <label for="tab4" class="games__link games__link--wow link"><span>World of Warcraft</span></label>
+          <label for="tab5" class="games__link games__link--bf4 link"><span>Battlefield 4</span></label>
+        </div>
+        <p class="games__baloon">Любые игры
+      из Steam, Origins,
+      Battle.Net, и т. д.</p>
+      </div>
+    </div>
+    <div class="games__tabs">
+      <div class="wrapper">
+        <div class="games__tab">Gta</div>
+        <div class="games__tab">W3</div>
+        <div class="games__tab">Elite</div>
+        <div class="games__tab">WOW</div>
+        <div class="games__tab">BF4</div>
+      </div>
+    </div>
+   </article>
+  <article class="play play-win">
+    <div class="wrapper">
+      <h2>Вы не почувствуете разницы</h2>
+      <ul class="play__list">
+        <li class="play__item play__item--launch">Вы запускаете наше приложение на любом компьютере, планшете или телефоне</li>
+        <li class="play__item play__item--server">Устанавливаете и запускаете игру на удалённом рабочем столе у нас на сервере</li>
+        <li class="play__item play__item--game">Теперь вы управляете игрой со своего компьютера, а мы в реальном времени показываем вам видео в высоком качестве 1080p, 60 FPS</li>
+      </ul>
+    </div>
+  </article>
+  <article class="watch wrapper">
+    <h2>Посмотрите сами</h2>
+    <div class="watch__item">
+      <iframe width="404" height="227" src="https://www.youtube.com/embed/A-mCKNTU_mU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <p>«Spintires» на слабом ноутбуке</p>
+    </div>
+    <div class="watch__item">
+      <iframe width="404" height="227" src="https://www.youtube.com/embed/A-mCKNTU_mU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <p>«Spintires» на том же ноутбуке запущена по технологии loudPlay</p>
+    </div>
+  </article>
+  <article class="partners">
+    <div class="wrapper">
+      <h2>Hаши партнёры</h2>
+      <a href="" class="partners__link partners__link--huawei">Huawei</a>
+      <a href="" class="partners__link partners__link--nvidia">Nvidia</a>
+      <a href="" class="partners__link partners__link--dataline">Dataline</a>
+    </div>
+  </article>
+  <article class="computer wrapper">
+    <h2>Давайте разберёмся</h2>
+    <p class="computer__text">Сколько стоит хороший игровой компьютер</p>
+    <ul class="part">
+      <li class="part__item part__item--system">
+        <p class="part__name">Сист. блок</p>
+        <p class="part__price">8 000 Р</p>
+      </li>
+      <li class="part__item part__item--monitor">
+        <p class="part__name">Монитор</p>
+        <p class="part__price">15 000 Р</p>
+      </li>
+      <li class="part__item part__item--mainboard">
+        <p class="part__name">Мат. плата</p>
+        <p class="part__price">15 000 Р</p>
+      </li>
+      <li class="part__item part__item--videocard">
+        <p class="part__name">Видеокарта</p>
+        <p class="part__price">25 000 Р</p>
+      </li>
+      <li class="part__item part__item--ram">
+        <p class="part__name">Опер. память</p>
+        <p class="part__price">9 000 Р</p>
+        <p class="part__memory">за 16 Гб</p>
+      </li>
+      <li class="part__item part__item--processor">
+        <p class="part__name">Процессор</p>
+        <p class="part__price">30 000 Р</p>
+      </li>
+      <li class="part__item part__item--drive">
+        <p class="part__name">SSD-диск</p>
+        <p class="part__price">9 000 Р</p>
+        <p class="part__memory">за 240 Гб</p>
+      </li>
+      <li class="part__item part__item--supply">
+        <p class="part__name">Блок питания</p>
+        <p class="part__price">6 000 Р</p>
+      </li>
+      
+      <li class="part__item part__item--cooler">
+        <p class="part__name">Кулер</p>
+        <p class="part__price">3 000 Р</p>
+      </li>
+    </ul>
+    <div class="computer__total">
+      <h2>Итого 120 000 руб.</h2>
+      <p>Или <span>3 300 рублей</span> в месяц в течение трёх лет</p>
+    </div>
+  </article>
+  <article class="buy">
+    <div class="wrapper">
+      <h2>Мы запустимся в октябре</h2>
+      <p>Оформите предзаказ до 15 августа со скидкой 50%</p>
+      <form action="" class="buy__form">
+        <p class="buy__price"><span class="buy__old">1590 Р</span> <span>790 Р</span> за месяц</p>
+        <p class="buy__text">Для первых ста заказавших цена останется такой навсегда</p>
+        <input type="email" name="email" id="email" placeholder="Эл. почта">
+        <button type="submit" class="buy__btn btn" name="order" id="order">Заказать</button>
+      </form>
+    </div>
+  </article>
+</body>
+</html>
