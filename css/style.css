@@ -374,7 +374,7 @@ ul {
 .games--win .games__tab::after {
   content: "";
   position: absolute;
-    bottom: 39px;
+  bottom: 39px;
   right: 37px;
   width: 196px;
   height: 112px;
@@ -408,7 +408,7 @@ ul {
   display: block;
   background: url(../img/games-gta.jpg) no-repeat 66px 30px/396px 249px;
 }
-.game--mac #tab1:checked ~ .games__tabs .wrapper .games__tab:nth-child(1)::before { 
+.games--mac #tab1:checked ~ .games__tabs .wrapper .games__tab:nth-child(1)::before { 
   display: block;
   background: #feefc4 url(../img/games-gta.jpg) no-repeat 50%/cover;
 }
