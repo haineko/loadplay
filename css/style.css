@@ -719,6 +719,7 @@ video {
 }
 
 .buy__text {
+  margin: 0;
   margin-bottom: 89px;
 }
 
