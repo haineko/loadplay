@@ -408,7 +408,7 @@ ul {
   display: block;
   background: url(../img/games-gta.jpg) no-repeat 66px 30px/396px 249px;
 }
-.game66px 30px/396px 249px#tab1:checked ~ .games__tabs .wrapper .games__tab:nth-child(1)::before { 
+.game--mac #tab1:checked ~ .games__tabs .wrapper .games__tab:nth-child(1)::before { 
   display: block;
   background: #feefc4 url(../img/games-gta.jpg) no-repeat 50%/cover;
 }
