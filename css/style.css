@@ -138,15 +138,15 @@ ul {
   padding: 11px 22px;
   float: right;
   width: 194px;
-  background: url(../img/header__btn.png) no-repeat -5px -5px;
+  background: url(../img/header-btn.png) no-repeat -5px -5px;
 }
 
 .main-header__btn:hover {
-  background: url(../img/header__btn.png) no-repeat -5px -105px;
+  background: url(../img/header-btn.png) no-repeat -5px -105px;
 }
 
 .main-header__btn:active {
-  background: url(../img/header__btn.png) no-repeat -5px -55px;
+  background: url(../img/header-btn.png) no-repeat -5px -55px;
 }
 
 .video {
@@ -212,15 +212,15 @@ ul {
 .intro__btn {
   margin: 0 auto;
   font-size: 24px;
-  background: url(../img/intro__btn.png) no-repeat -5px -5px;
+  background: url(../img/intro-btn.png) no-repeat -5px -5px;
 }
 
 .intro__btn:hover {
-  background: url(../img/intro__btn.png) no-repeat -5px -147px;
+  background: url(../img/intro-btn.png) no-repeat -5px -147px;
 }
 
 .intro__btn:active {
-  background: url(../img/intro__btn.png) no-repeat -5px -76px;
+  background: url(../img/intro-btn.png) no-repeat -5px -76px;
 }
 
 .games {
@@ -654,17 +654,17 @@ ul {
 
 .partners__link--huawei {
   width: 25%;
-  background: url(../img/partner_huawei.png) no-repeat 50%;
+  background: url(../img/partner-huawei.png) no-repeat 50%;
 }
 
 .partners__link--nvidia {
   width: 50%;
-  background: url(../img/partner_nvidia.png) no-repeat 50%;
+  background: url(../img/partner-nvidia.png) no-repeat 50%;
 }
 
 .partners__link--dataline {
   width: 25%;
-  background: url(../img/partner_dataline.png) no-repeat 50%;
+  background: url(../img/partner-dataline.png) no-repeat 50%;
 }
 
 .computer {
@@ -913,16 +913,16 @@ input[type=email]:-ms-input-placeholder {font-family: "Ubuntu", "Arial", "Helvet
   font-size: 24px;
   color: #fff;
   border: none;
-  background: url(../img/form__btn.png) no-repeat -5px -5px;
+  background: url(../img/form-btn.png) no-repeat -5px -5px;
   outline: none;
 }
 
 .buy__btn:hover {
-  background: url(../img/form__btn.png) no-repeat -5px -147px;
+  background: url(../img/form-btn.png) no-repeat -5px -147px;
 }
 
 .buy__btn:active {
-  background: url(../img/form__btn.png) no-repeat -5px -76px;
+  background: url(../img/form-btn.png) no-repeat -5px -76px;
 }
 
 .tmp {
