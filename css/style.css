@@ -62,6 +62,9 @@ ul {
 
 .main-header {
   padding: 14px 0 20px;
+	position: relative;
+	background-color: #fff;
+	z-index: 100;
 }
 
 .main-header__logo {
@@ -118,14 +121,16 @@ ul {
   position: relative;
   z-index: 2;
   height: 100vh;
+  overflow: hidden;
 }
 
-video {
-  position: relative;
+.video__src {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
   min-width: 100%;
   min-height: 100%;
-  width: auto;
-  height: 100vh;
   z-index: 5;
   background: #000 url("../img/bg-video.jpg") no-repeat 50%/cover;
 }
@@ -139,7 +144,7 @@ video {
   z-index: 7;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7) url("../img/bg-line.png") repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0.7) url("../img/bg-line2x.png") repeat scroll 0 0;
 }
 
 .intro {
@@ -762,4 +767,14 @@ input[type=email]:-ms-input-placeholder {font-family: "Ubuntu", "Arial", "Helvet
 
 .buy__btn:active {
   background: url(../img/form__btn.png) no-repeat -5px -76px;
+}
+
+.tmp {
+		cursor: pointer;
+		z-index: 10;
+		background: red;
+		color: white;
+		position: fixed;
+		top: 20px;
+		right: 30px;
 }

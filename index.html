@@ -8,28 +8,29 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <header class="main-header">
-    <div class="wrapper">
-      <a href="/" class="main-header__logo">Loadplay</a>
-      <nav class="main-header__menu">
-        <a href="#" class="main-header__link link">Как это работает</a>
-        <a href="#" class="main-header__btn btn">Сделать предзаказ</a>
-      </nav>
-    </div>
-  </header>
+	<a class="tmp">win/mac</a>
+		
   <article class="video">
-    <video autoplay poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" loop>
+		<header class="main-header">
+			<div class="wrapper">
+				<a href="/" class="main-header__logo">Loadplay</a>
+				<nav class="main-header__menu">
+					<a href="#" class="main-header__link link">Как это работает</a>
+					<a href="#" class="main-header__btn btn">Сделать предзаказ</a>
+				</nav>
+			</div>
+		</header>
+    <video class="video__src" loop autoplay poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid">
       <source src="https://demosthenes.info/assets/videos/polina.webm" type="video/webm">
-    <source src="https://demosthenes.info/assets/videos/polina.mp4" type="video/mp4">
+      <source src="https://demosthenes.info/assets/videos/polina.mp4" type="video/mp4">
     </video>
     <div class="intro wrapper">
       <h1>Играйте в любую игру на любом устройстве</h1>
-      <p class="games__text">Забудьте о производительности своего компьютера.
-    Играйте в облаке.</p>
+      <p class="games__text">Забудьте о производительности своего компьютера. Играйте в облаке.</p>
       <a href="" class="intro__btn btn">Сделать предзаказ</a>
     </div>
   </article>
-  <article class="games games--mac games--win">
+  <article class="games games--win">
     <div class="wrapper">
       <h2>Играйте в любые игры</h2>
       <p>На любом компьютере, планшете и смартфоне</p>  
@@ -153,5 +154,20 @@
       </form>
     </div>
   </article>
+	<div class="preloader">
+			<div><div><div><!-- --></div></div></div>
+  </div>
+	<script>
+		var games = document.querySelector('.games');
+		var play = document.querySelector('.play');
+			
+		document.querySelector('.tmp').addEventListener('click', function(e){
+			e.preventDefault;
+		  if (games.className == 'games games--win') games.className = 'games games--mac'
+			else games.className = 'games games--win'
+		  if (play.className == 'play play--win') play.className = 'play play--mac'
+			else play.className = 'play play--win'
+		});
+	</script>
 </body>
 </html>
