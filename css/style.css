@@ -320,7 +320,7 @@ ul {
   font-size: 15px;
   line-height: 23px;
   border-radius: 50%;
-  background-color: #e23a3a;
+  background-color: #f96760;
 } 
 
 .games__tabs {
@@ -336,11 +336,48 @@ ul {
 }
 
 .games__tab {
+  position: relative;
   display: none;
   width: 996px;
   height: 350px;
   text-indent: -150%;
   overflow: hidden;
+}
+
+.games--mac .games__tab::before {
+  content: "";
+  position: absolute;
+  top: 105px;
+  left: 519px;
+  width: 254px;
+  height: 190px;
+}
+
+.games--mac .games__tab::after {
+  content: "";
+  position: absolute;
+  bottom: 42px;
+  right: 23px;
+  width: 162px;
+  height: 90px;
+}
+
+.games--win .games__tab::before {
+  content: "";
+  position: absolute;
+  top: 125px;
+  left: 489px;
+  width: 242px;
+  height: 156px;
+}
+
+.games--win .games__tab::after {
+  content: "";
+  position: absolute;
+    bottom: 39px;
+  right: 37px;
+  width: 196px;
+  height: 112px;
 }
 
 #tab1:checked ~ .games__controls .games__control label[for="tab1"],
@@ -369,44 +406,132 @@ ul {
 
 .games--mac #tab1:checked ~ .games__tabs .wrapper .games__tab:nth-child(1) { 
   display: block;
-  background: url(../img/mac-gta.png) no-repeat 74% 41%;
+  background: url(../img/games-gta.jpg) no-repeat 66px 30px/396px 249px;
 }
+.game66px 30px/396px 249px#tab1:checked ~ .games__tabs .wrapper .games__tab:nth-child(1)::before { 
+  display: block;
+  background: #feefc4 url(../img/games-gta.jpg) no-repeat 50%/cover;
+}
+.games--mac #tab1:checked ~ .games__tabs .wrapper .games__tab:nth-child(1)::after { 
+  display: block;
+  background: #feefc4 url(../img/games-gta.jpg) no-repeat 50%/cover;
+}
+
 .games--mac #tab2:checked ~ .games__tabs .wrapper .games__tab:nth-child(2) { 
   display: block;
-  background: url(../img/mac-w3.png) no-repeat 74% 41%;
+  background: url(../img/games-w3.jpg) no-repeat 66px 30px/396px 249px;
 }
+.games--mac #tab2:checked ~ .games__tabs .wrapper .games__tab:nth-child(2)::before { 
+  display: block;
+  background: #475c39 url(../img/games-w3.jpg) no-repeat 50%/cover;
+}
+.games--mac #tab2:checked ~ .games__tabs .wrapper .games__tab:nth-child(2)::after { 
+  display: block;
+  background: #475c39 url(../img/games-w3.jpg) no-repeat 50%/cover;
+}
+
 .games--mac #tab3:checked ~ .games__tabs .wrapper .games__tab:nth-child(3) { 
   display: block;
-  background: url(../img/mac-elite.png) no-repeat 74% 41%;
+  background: url(../img/games-elite.jpg) no-repeat 66px 30px/396px 249px;
 }
+.games--mac #tab3:checked ~ .games__tabs .wrapper .games__tab:nth-child(3)::before { 
+  display: block;
+  background: #26434e url(../img/games-elite.jpg) no-repeat 50%/cover;
+}
+.games--mac #tab3:checked ~ .games__tabs .wrapper .games__tab:nth-child(3)::after { 
+  display: block;
+  background: #26434e url(../img/games-elite.jpg) no-repeat 50%/cover;
+}
+
 .games--mac #tab4:checked ~ .games__tabs .wrapper .games__tab:nth-child(4) { 
   display: block;
-  background: url(../img/mac-wow.png) no-repeat 74% 41%;
+  background: url(../img/games-wow.jpg) no-repeat 66px 30px/396px 249px;
 }
+.games--mac #tab4:checked ~ .games__tabs .wrapper .games__tab:nth-child(4)::before { 
+  display: block;
+  background: #491c03 url(../img/games-wow.jpg) no-repeat 50%/cover;
+}
+.games--mac #tab4:checked ~ .games__tabs .wrapper .games__tab:nth-child(4)::after { 
+  display: block;  
+  background: #491c03 url(../img/games-wow.jpg) no-repeat 50%/cover;
+}
+
 .games--mac #tab5:checked ~ .games__tabs .wrapper .games__tab:nth-child(5) { 
   display: block;
-  background: url(../img/mac-bf4.png) no-repeat 74% 41%;
+  background: url(../img/games-bf4.jpg) no-repeat 66px 30px/396px 249px;
+}
+.games--mac #tab5:checked ~ .games__tabs .wrapper .games__tab:nth-child(5)::before { 
+  display: block;
+  background: #d2cabd url(../img/games-bf4.jpg) no-repeat 50%/cover;
+}
+.games--mac #tab5:checked ~ .games__tabs .wrapper .games__tab:nth-child(5)::after { 
+  display: block;
+  background: #d2cabd url(../img/games-bf4.jpg) no-repeat 50%/cover;
 }
 
 .games--win #tab1:checked ~ .games__tabs .wrapper .games__tab:nth-child(1) { 
   display: block;
-  background: url(../img/win-gta.png) no-repeat 67% 45%;
+  background: url(../img/games-gta.jpg) no-repeat 78px 33px/353px 199px;
 }
+.games--win #tab1:checked ~ .games__tabs .wrapper .games__tab:nth-child(1)::before { 
+  display: block;
+  background: #feefc4 url(../img/games-gta.jpg) no-repeat 50%/cover;
+}
+.games--win #tab1:checked ~ .games__tabs .wrapper .games__tab:nth-child(1)::after { 
+  display: block;
+  background: #feefc4 url(../img/games-gta.jpg) no-repeat 50%/cover;
+}
+
 .games--win #tab2:checked ~ .games__tabs .wrapper .games__tab:nth-child(2) { 
   display: block;
-  background: url(../img/win-w3.png) no-repeat 67% 45%;
+  background: url(../img/games-w3.jpg) no-repeat 78px 33px/353px 199px;
 }
+.games--win #tab2:checked ~ .games__tabs .wrapper .games__tab:nth-child(2)::before { 
+  display: block;
+  background: #475c39 url(../img/games-w3.jpg) no-repeat 50%/cover;
+}
+.games--win #tab2:checked ~ .games__tabs .wrapper .games__tab:nth-child(2)::after { 
+  display: block;
+  background: #475c39 url(../img/games-w3.jpg) no-repeat 50%/cover;
+}
+
 .games--win #tab3:checked ~ .games__tabs .wrapper .games__tab:nth-child(3) { 
   display: block;
-  background: url(../img/win-elite.png) no-repeat 67% 45%;
+  background: url(../img/games-elite.jpg) no-repeat 78px 33px/353px 199px;
 }
+.games--win #tab3:checked ~ .games__tabs .wrapper .games__tab:nth-child(3)::before { 
+  display: block;
+  background: #26434e url(../img/games-elite.jpg) no-repeat 50%/cover;
+}
+.games--win #tab3:checked ~ .games__tabs .wrapper .games__tab:nth-child(3)::after { 
+  display: block;
+  background: #26434e url(../img/games-elite.jpg) no-repeat 50%/cover;
+}
+
 .games--win #tab4:checked ~ .games__tabs .wrapper .games__tab:nth-child(4) { 
   display: block;
-  background: url(../img/win-wow.png) no-repeat 67% 45%;
+  background: url(../img/games-wow.jpg) no-repeat 78px 33px/353px 199px;
 }
+.games--win #tab4:checked ~ .games__tabs .wrapper .games__tab:nth-child(4)::before { 
+  display: block;
+  background: #491c03 url(../img/games-wow.jpg) no-repeat 50%/cover;
+}
+.games--win #tab4:checked ~ .games__tabs .wrapper .games__tab:nth-child(4)::after { 
+  display: block;
+  background: #491c03 url(../img/games-wow.jpg) no-repeat 50%/cover;
+}
+
 .games--win #tab5:checked ~ .games__tabs .wrapper .games__tab:nth-child(5) { 
   display: block;
-  background: url(../img/win-bf4.png) no-repeat 67% 45%;
+  background: url(../img/games-bf4.jpg) no-repeat 78px 33px/353px 199px;
+}
+.games--win #tab5:checked ~ .games__tabs .wrapper .games__tab:nth-child(5)::before { 
+  display: block;
+  background: #d2cabd url(../img/games-bf4.jpg) no-repeat 50%/cover;
+}
+.games--win #tab5:checked ~ .games__tabs .wrapper .games__tab:nth-child(5)::after { 
+  display: block;
+  background: #d2cabd url(../img/games-bf4.jpg) no-repeat 50%/cover;
 }
 
 .play {
@@ -697,8 +822,7 @@ ul {
 .buy {
   padding: 90px 0 160px;
   text-align: center;
-  background: url(../img/bg-form.jpg) no-repeat 50%;
-  background-size: cover;
+  background: #000 url(../img/bg-form.jpg) no-repeat 50%/cover;
 }
 
 .buy h2,

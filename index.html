@@ -20,7 +20,7 @@
 				</nav>
 			</div>
 		</header>
-    <video class="video__src" loop autoplay poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid">
+    <video class="video__src" loop autoplay poster="./img/bg-video.jpg" id="video">
       <source src="https://demosthenes.info/assets/videos/polina.webm" type="video/webm">
       <source src="https://demosthenes.info/assets/videos/polina.mp4" type="video/mp4">
     </video>
@@ -88,9 +88,9 @@
   <article class="partners">
     <div class="wrapper">
       <h2>Hаши партнёры</h2>
-      <a class="partners__link partners__link--huawei" href="#">Huawei</a>
-      <a class="partners__link partners__link--nvidia" href="#">Nvidia</a>
-      <a class="partners__link partners__link--dataline" href="#">Dataline</a>
+      <a class="partners__link partners__link--huawei" href="http://www.huawei.com/ru/">Huawei</a>
+      <a class="partners__link partners__link--nvidia" href="http://www.nvidia.ru/object/nvidia-grid-ru.html">Nvidia</a>
+      <a class="partners__link partners__link--dataline" href="http://www.dtln.ru/">Dataline</a>
     </div>
   </article>
   <article class="computer wrapper">
@@ -99,42 +99,42 @@
     <ul class="part">
       <li class="part__item part__item--system">
         <p class="part__name">Сист. блок</p>
-        <p class="part__price">8 000 Р</p>
+        <p class="part__price">8 000 <span class="icon-rouble">Р</span></p>
       </li>
       <li class="part__item part__item--monitor">
         <p class="part__name">Монитор</p>
-        <p class="part__price">15 000 Р</p>
+        <p class="part__price">15 000 <span class="icon-rouble">Р</span></p>
       </li>
       <li class="part__item part__item--mainboard">
         <p class="part__name">Мат. плата</p>
-        <p class="part__price">15 000 Р</p>
+        <p class="part__price">15 000 <span class="icon-rouble">Р</span></p>
       </li>
       <li class="part__item part__item--videocard">
         <p class="part__name">Видеокарта</p>
-        <p class="part__price">25 000 Р</p>
+        <p class="part__price">25 000 <span class="icon-rouble">Р</span></p>
       </li>
       <li class="part__item part__item--ram">
         <p class="part__name">Опер. память</p>
-        <p class="part__price">9 000 Р</p>
+        <p class="part__price">9 000 <span class="icon-rouble">Р</span></p>
         <p class="part__memory">за 16 Гб</p>
       </li>
       <li class="part__item part__item--processor">
         <p class="part__name">Процессор</p>
-        <p class="part__price">30 000 Р</p>
+        <p class="part__price">30 000 <span class="icon-rouble">Р</span></p>
       </li>
       <li class="part__item part__item--drive">
         <p class="part__name">SSD-диск</p>
-        <p class="part__price">9 000 Р</p>
+        <p class="part__price">9 000 <span class="icon-rouble">Р</span></p>
         <p class="part__memory">за 240 Гб</p>
       </li>
       <li class="part__item part__item--supply">
         <p class="part__name">Блок питания</p>
-        <p class="part__price">6 000 Р</p>
+        <p class="part__price">6 000 <span class="icon-rouble">Р</span></p>
       </li>
       
       <li class="part__item part__item--cooler">
         <p class="part__name">Кулер</p>
-        <p class="part__price">3 000 Р</p>
+        <p class="part__price">3 000 <span class="icon-rouble">Р</span></p>
       </li>
     </ul>
     <div class="computer__total">
@@ -147,16 +147,13 @@
       <h2>Мы запустимся в октябре</h2>
       <p>Оформите предзаказ до 15 августа со скидкой 50%</p>
       <form action="" class="buy__form">
-        <p class="buy__price"><span class="buy__old">1590 <span class="icon-rouble">Р</span></span> <span>790 Р</span> за месяц</p>
+        <p class="buy__price"><span class="buy__old">1590 <span class="icon-rouble">Р</span></span> <span>790 <span class="icon-rouble">Р</span></span> за месяц</p>
         <p class="buy__text">Для первых ста заказавших цена останется такой навсегда</p>
         <input type="email" name="email" id="email" placeholder="Эл. почта">
         <button type="submit" class="buy__btn btn" name="order" id="order">Заказать</button>
       </form>
     </div>
   </article>
-	<div class="preloader">
-			<div><div><div><!-- --></div></div></div>
-  </div>
 	<script>
 		var games = document.querySelector('.games');
 		var play = document.querySelector('.play');
